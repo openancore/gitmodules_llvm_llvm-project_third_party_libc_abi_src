@@ -1,0 +1,13 @@
+Submodule mirrored for openancore.
+
+parent: platform_external_angle
+path: third_party/libc++abi/src
+gitmodules_url: https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxxabi.git
+fetched_from: https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxxabi.git
+commit: a3c7d3e2f3e1e724b4651891b1a71257cbd88acc
+branch: main
+fallback_from_github: true
+
+commit is the gitlink recorded on the parent's android-15.0.0_r36 branch.
+branch is the upstream HEAD branch at fetch time. The commit is pushed
+here as android-15.0.0_r36 whether or not it is that branch's tip.
